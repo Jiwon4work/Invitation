@@ -6,7 +6,8 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/Invitation/',   // ⬅️ 이 줄 추가 (I 대문자 주의!)
+    // 🔧 여기만 수정!
+    base: './',
 
     server: {
       port: 3000,
